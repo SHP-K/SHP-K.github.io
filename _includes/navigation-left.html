@@ -1,0 +1,17 @@
+
+    <div id="left-bar">
+        {% for menus in site.data.menu %}
+            {% if menus.name == page.menu %}
+                <a href="{{ menus.url }}"><h2 class="{% if menus.name == page.title %}active{% endif %}">{{ menus.label }}</h2></a>
+                <ul>
+                    {% for men in menus.menus %}
+                        <a href="{{ men.url }}"><li class="{% if men.name == page.title %}active{% endif %}">
+                            {{ men.label }}
+                        </li></a>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endfor %}
+
+        {% include footer-left.html %}
+    </div>

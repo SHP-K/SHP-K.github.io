@@ -1,0 +1,18 @@
+---
+title: contribution
+menu: About
+layout: view
+---
+
+    <div id="contribution">
+        {% for contribute in site.data.contribution %}
+            <div class="contribute">
+                <a href="#">
+                    <img src="/assets/image/contribution/{{ contribute.image }}">
+                </a>
+                <div class="description">
+                    {{ contribute.title }}
+                </div>
+            </div>
+        {% endfor %}
+    </div>

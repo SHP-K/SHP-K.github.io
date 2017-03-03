@@ -1,0 +1,31 @@
+---
+title: location
+menu: About
+layout: view
+---
+    <div style="width : 1024px; margin : 0 auto;">
+    <div id="location">
+
+        <!-- <h2>오시는 길</h2> -->
+        <div class="inner">
+            <div id="daumRoughmapContainer1484973335805" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+            <small>서울시 강남구 논현로93길 6 비케이40 빌딩 4, 5, 6층<br>(지하철 2호선 역삼역 6번 출구에서부터 약 100m)</small>
+        </div>
+
+        <!-- <h3>연락처</h3> -->
+        <!-- <div class="inner">
+            <p style="line-height:0.5;">Tel: {{ site.data.about.call }}</p>
+            <p style="line-height:0.5;">Fax: {{ site.data.about.fax }}</p>
+        </div> -->
+    </div>
+</div>
+
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script>
+<script charset="UTF-8">
+    new daum.roughmap.Lander({
+        "timestamp" : "1484973335805",
+        "key" : "fisd",
+        "mapWidth" : "600",
+        "mapHeight" : "300"
+    }).render();
+</script>

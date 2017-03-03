@@ -1,0 +1,27 @@
+---
+title: view
+layout: default
+---
+    <div id="nav-pic">
+    </div>
+    <div id="contents">
+        {% include navigation-left.html %}
+        <div id="content">
+            <div class="header">
+                {% for menus in site.data.menu %}
+                    {% if menus.name == page.title %}
+                        <p>{{ menus.label }}</p>
+                        {% break %}
+                    {% endif %}
+                    {% for menu in menus.menus %}
+                        {% if menu.name == page.title %}
+                            <p>{{ menu.label }}</p>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </div>
+            <div id="content-inner">
+                {{ content }}
+            </div>
+        </div>
+    </div>

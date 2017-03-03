@@ -1,0 +1,17 @@
+---
+title: greetings
+menu: About
+layout: view
+---
+
+    <div id="greetings">
+        <img id="CEO" src="/assets/image/CEO_image_.png">
+        {% for greeting in site.data.about.greetings %}
+            <p>{{ greeting }}</p>
+            <br>
+        {% endfor %}
+        <div id="sign">
+            <p>{{ site.data.about.greetings-sign }}</p>
+            <img src="/assets/image/sign.png">
+        </div>
+    </div>

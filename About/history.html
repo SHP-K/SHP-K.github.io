@@ -1,0 +1,25 @@
+---
+title: history
+menu: About
+layout: view
+---
+
+    <div id="history">
+        <section class="timeline">
+            <ul>
+                {% for event in site.data.about.history reversed %}
+                    <li>
+                        <div class="timeline-content">
+                            <time>{{ event.date }}</time>
+                            <p class="description">
+                            {% for description in event.description %}
+                                {{ description }}
+                                <br>
+                            {% endfor %}
+                            </p>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </div>

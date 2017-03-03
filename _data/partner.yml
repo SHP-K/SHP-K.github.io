@@ -1,0 +1,77 @@
+-
+    domestic: Japan
+    domestic-label: 일본
+    partners:
+      - logo: logo_HIRANO_Group.jpg
+        name_eng: HIRANO Group
+        name_kor: 히라노
+        desc: 
+        link-label:
+        link: http://www.hirano-tec.co.jp/en/index.html 
+
+      - logo: logo_CANON_MACHINERY_INC.jpg
+        name_eng: CANON MACHINERY
+        name_kor: 캐논 머시너리
+        desc: 자동차 전지용 조립설비
+        link-label:
+        link: http://www.canon-machinery.co.jp/index_e.html
+
+      - logo: logo_TOKYOWELD.jpg
+        name_eng: Tokyo Weld
+        name_kor: 도쿄웰드 
+        desc: 전자부품용 인쇄기, 전극도포장치, 측정선별기, 포장기 등
+        link-label:
+        link: http://www.tokyoweld.com/en/
+
+      - logo: logo_sumitomo.jpg
+        name_eng: Sumitomo Heavy Industries Modern, Ltd.
+        name_kor: 스미토모 중기계 모던
+        desc: Film용 압출기
+        link-label:
+        link: www.shi.co.jp
+
+      - logo: logo_KOBE.jpg
+        name_eng: KOBE STEEL, Ltd.
+        name_kor: 고베 스틸
+        desc: 화학원재료 Extruder, Compounder, 압출기Pelletizer
+        link: www.kobelco.co.jp
+
+      - logo: logo_fusi.gif
+        name_eng: FUJI TEKKO Co., Ltd.
+        name_kor: 후지 테코
+        desc: 필름용 Winder slitter
+        link: www.fujitekko.co.jp
+
+      - logo: logo_Mitsubishi Chemical Engineering(MEC).gif
+        name_eng: Mitsubishi Chemical Engineering(MEC)
+        name_kor: 미츠비시 케미컬 엔지니어링
+        desc: 
+        link: www.mec-value.com
+
+
+
+-
+    domestic: german
+    domestic-label: 독일
+    partners: 
+      - logo: logo_HERAEUS.png
+        name_eng: HERAEUS NOBLELIGHT(舊 Fusion UV System)
+        name_kor: 헤라우스 노블라이트(舊 퓨전 UV 시스템)
+        desc: 무전극 UV, LED UV 경화설비
+        pdfs:
+            -
+                pdf_Heraeus1.pdf
+            -
+                pdf_Heraeus2.pdf
+
+-
+    domestic: america
+    domestic-label: 미국
+    partners: 
+      - logo: logo_LINCOLN_ELECTRIC_GROUP.png
+        name_eng: Lincoln electric group
+        name_kor: 링컨
+        desc:
+        pdfs:
+            -
+                pdf_LINCOLN.pdf

@@ -1,0 +1,34 @@
+---
+title: Recruit
+menu: Recruit
+layout: view
+---
+
+    <div id="recruit">
+        <ul>
+            <!-- this is pinned content -->
+            <li>
+                <div class="post-header">
+                    <h2>{{ site.data.recruit.title }}</h2>
+                    <div class="post-detail view">
+                        <p>{{ site.data.recruit.content }}</p>
+                    </div>
+                </div>
+            </li>
+            {% for post in site.posts %}
+            <li>
+                <div tabindex="0" class="post-header">
+                    <h2>{{ post.title }}</h2>
+                    <div class="time">  
+                        <time class="d">{{ post.to | date: "%d" }}</time>
+                        <time class="from">{{ post.from | date: "%a, %b %d, %y" }}</time>
+                        <time class="to">{{ post.to | date: "%a, %b %d, %y" }}</time>
+                    </div>
+                    <div class="post-detail">
+                        <p>{{ post.content }}</p>
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>

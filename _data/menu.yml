@@ -1,0 +1,49 @@
+-
+  name: About
+  label: 회사소개
+  url: /About/greetings.html
+  menus:
+    - name: greetings
+      label: CEO인사말
+      url: /About/greetings.html
+
+    - name: history
+      label: 연혁
+      url: /About/history.html
+
+    - name: organization
+      label: 조직도
+      url: /About/organization.html
+
+    - name: contribution
+      label: 사회공헌
+      url: /About/contribution.html
+
+    - name: location
+      label: 오시는 길
+      url: /About/location.html
+-
+  name: Business
+  label: 사업내용
+  url: /Business/area.html
+  menus:
+    - name: area
+      label: 영역
+      url: /Business/area.html
+
+    - name: parts
+      label: 분야
+      url: /Business/parts.html
+
+    - name: partners
+      label: 파트너
+      url: /Business/partners.html
+
+-
+  name: Recruit
+  label: 채용정보
+  url: /Recruit/index.html
+-
+  name: Support
+  label: 문의
+  url: /Support/index.html

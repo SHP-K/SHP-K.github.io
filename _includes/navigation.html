@@ -1,0 +1,22 @@
+
+    <div id="top-bar">
+        <a href="/"><img src="/assets/image/logo_text.png" class="logo_image"></a>
+        <nav id="main-menu">
+            <ul>
+                {% for menus in site.data.menu %}
+                    <li class="{% if page.menu == menus.name %}active{% endif %}">
+                        <span class="{% if page.menu == menus.name %}active{% endif %}"><a href="{{ menus.url }}">{{ menus.label }}</a></span>
+                        {% if menus.menus %}
+                            <div class="sub-menu">
+                                <ul>
+                                {% for menu in menus.menus %}
+                                    <li><a href="{{ menu.url }}">{{ menu.label }}</a></li>
+                                {% endfor %}
+                                </ul>
+                            </div>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>

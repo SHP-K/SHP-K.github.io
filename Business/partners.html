@@ -1,0 +1,35 @@
+---
+title: partners
+menu: Business
+layout: view
+---
+
+    <div id="partners">
+        <ul class="list-area">
+            {% for partner in site.data.partner %}
+                <li>
+                    <div class="item-area">{{ partner.domestic-label }}</div>
+                    <ul class="list-detail">
+                        {% for part in partner.partners %}
+                            <li>
+                                <div class="item-detail">
+                                    <img src="/assets/image/logo/{{ part.logo }}">
+                                </div>
+                                {% if part.pdfs %}
+                                    <p class="pdf">
+                                        {% for pdf in part.pdfs %}
+                                            <a href="../assets/pdf/{{ pdf }}">
+                                                <i class="pdf"></i>
+                                            </a>
+                                        {% endfor %}
+                                    </p>
+                                {% else %}
+                                    <p><a href="{{ part.link }}">{{ part.link }}</a></p>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>

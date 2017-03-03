@@ -1,0 +1,23 @@
+---
+title: parts
+menu: Business
+layout: view
+---
+
+    <div id="parts">
+        <ul class="list-area">
+            {% for part in site.data.parts %}
+                <li>
+                    <div class="item-area">{{ part.area }}</div>
+                    <ul class="list-detail">
+                        {% for area in part.details %}
+                            <li>
+                                <div class="item-detail">{{ area.area }}</div>
+                                <p>{{ area.description}}</p>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>

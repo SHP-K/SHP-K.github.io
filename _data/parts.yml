@@ -1,0 +1,52 @@
+-
+  area: 설비 수출입 영역
+  details:
+    - area: 에너지 분야
+      description: Li 2차전지(스마트폰/자동차/전력저장장치), 연료전지(자동차용/발전용), 태양전지(방수용/원판제조)
+
+    - area: IT/디스플레이 분야
+      description: 정밀 점착 및 접착 Coater, Sputter, Slitter, 재단기, Casting, Flexible 소재 등
+
+    - area: 전자부품 분야
+      description: 인쇄기, 전극도포장치, 측정선별기, 측정포장기, 전자부품포장용 테잎류
+
+    - area: UV/IR 경화장치 분야
+      description: UV경화장치, UV램프, UV/IR 경화관련조액 솔루션제공
+
+    - area: 자동차/전자재료/산업용 분야
+      description: 경량화 소재설비, GMT PRESS, PI Film, 세라믹 박막 Sheet 제조, 고온 연신기, PCB 가공
+
+    - area: 원료 제조 설비
+      description: PE, PP, EVA 등 압출 및 혼합설비
+
+    - area: 환경분야
+      description: 수처리용 분리막 설비, 공장 불순물 및 오염 필터링 시스템, 친환경 소재개발
+-
+  area: 소재 제조 및 설비 제작
+  details:
+    - area: 3D 곡면성형유리 분야
+      description: Mobile 및 디스플레이용 제품 제조·판매
+
+    - area: UV/IR 경화설비 제작
+      description: 각 산업분야에 적용
+
+-
+  area: 신규사업 구상
+  details:
+    - area: 의약, Bio 분야 설비·원재료
+      description: 메디칼Tape 개발, 제약, 화장품, 고압산소치료기, 항산화 약품 판매 등
+
+    - area: 로봇 산업 분야
+      description: 물류자동화 System 개발 등
+
+    - area: 신성장 기술사업투자
+      description: 유망 스타트업 기업 발굴·투자
+
+    - area: 엔터테인먼트 사업 투자
+      description:
+
+    - area: 사물인터넷(Internet of Thing, IoT) 관련 소프트웨어 및 보드웨어 Solution
+      description:
+
+    - area: 對 중국 수출 확판
+      description: 화장품 등 소비재
